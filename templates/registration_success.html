@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>Registration Success</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h2>Welcome to DevOps Learning, {{ firstname }}!</h2>
-    <p>You have successfully registered.</p>
+    <p>{{ firstname }}! You have successfully registered.</p>
     <p><a href="/">Go to Login Page</a></p>
 </body>
 </html>
